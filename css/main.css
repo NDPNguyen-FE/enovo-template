@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;0,800;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.bg {
+    background-image: url('/img/bG-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.our-services,
+.how-works {
+    text-align: center;
+    padding: 70px 0;
+}
+
+.our-services h2,
+.our-client h2 {
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+    color: #c1351f;
+}
+
+.our-services h2 span,
+.how-works h2 span,
+.title h2 span,
+.our-client h2 span {
+    color: #ffffff;
+    text-shadow: -2px -2px 0 #c1351f, 2px -2px 0 #c1351f, -2px 2px 0 #c1351f, 2px 2px 0 #c1351f;
+}
+
+.sub-services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 200px;
+    grid-gap: 30px;
+
+}
+
+.card-sub {
+    text-align: left;
+}
+
+svg {
+    transition: all 0.5s;
+}
+
+
+.card-sub .icon {
+    background-color: #fff3f1;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-sub h3 {
+    font-size: 18px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+.card-sub p {
+    line-height: 25px;
+}
+
+.card-sub:hover svg {
+    transform: scale(1.2);
+}
+
+.card-sub:hover h3 {
+    color: #c1351f;
+}
+
+.how-works h2 {
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    color: #c1351f;
+}
+
+.global {
+    background-color: #FEFBFB;
+    position: relative;
+    overflow: hidden;
+}
+
+.global-detail {
+    padding: 80px 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.title h2 {
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #c1351f;
+
+}
+
+.sub-title {
+    width: 500px;
+    color: #474b6B;
+}
+
+.shadow {
+    position: relative;
+}
+
+.shadow::before {
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 8px;
+    background-color: #c1351f;
+    top: 35px;
+    left: -160px;
+}
+
+.shadow::after {
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 5px;
+    border: 1px solid #000000;
+    top: 39px;
+    left: -170px;
+}
+
+.sub-title h3 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.sub-title p {
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.circle {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #c1351f;
+    border-radius: 50%;
+    top: -37px;
+    right: -28px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.our-client {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.swiper-slide {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 50px 200px;
+    justify-items: center;
+    grid-gap: 30px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #c1351f !important;
+
+}
+
+.contact {
+    background-image: url('https://enouvo.com/wp-content/uploads/2020/07/Im-2.svg?id=8648');
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.sub-contact {
+    text-align: center;
+    padding-top: 90px;
+}
+
+.sub-contact h2 {
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.sub-contact h2 span {
+    color: #c1351f;
+    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
+}
+
+.sub-contact .button-contact {
+    padding: 12px 30px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.sub-contact .button-contact:hover {
+    color: #c1351f;
+    background-color: #fff;
+}
