@@ -5,16 +5,31 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+
+
 }
 
 
 
 .bg {
-    background-image: url('/img/bG-min.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('./img/bG-min.jpg');
     height: 100vh;
     width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg video {
+    position: absolute;
+    width: 100%;
+    outline: none;
+    height: 100vh;
+    border: none;
+    bottom: -42px;
+}
+
+video::-webkit-media-controls-timeline {
+    display: none;
 }
 
 .our-services,
@@ -191,8 +206,11 @@ svg {
 }
 
 .contact {
-    background-color: #c1351f;
-    height: 500px;
+    background-image: url('https://enouvo.com/wp-content/uploads/2020/07/Im-2.svg?id=8648');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 60vh;
     width: 100%;
     margin-top: 100px;
 }
